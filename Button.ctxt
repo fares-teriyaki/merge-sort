@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\n\ Makes\ a\ button\ and\ checks\ if\ its\ clicked\n\ \n\ @author\ Fares\ Alterawi\n\ @version\ 2.0\n
+comment1.params=
+comment1.target=void\ checkIsClicked()
+comment1.text=\n\ This\ method\ literally\ just\ returns\ the\ value\ of\ is\ clicked\n
+comment2.params=
+comment2.target=boolean\ getIsClicked()
+comment2.text=\n\ This\ method\ literally\ just\ returns\ the\ value\ of\ is\ clicked\n\ @\ return\ isClicked\ \n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ This\ method\ constantly\ checks\ if\ the\ button\ is\ clicked\n
+numComments=4

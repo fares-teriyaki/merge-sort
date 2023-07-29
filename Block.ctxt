@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Block
+comment0.text=\n\ Blocks\ for\ use\ in\ sorting\ visualization.\ \ Each\ block\ is\ it's\ own\ object\ and\ has\ a\ value\ associated\ with\ it.\ \ This\ value\n\ is\ represented\ visually\ by\ it's\ width\ and\ a\ number\ display.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=heightIn\ widthOfInterface\ valueIn\ maxValue\ debugFlag
+comment1.target=Block(int,\ int,\ int,\ int,\ boolean[])
+comment1.text=\n\ Create\ a\ block\ and\ specify\ it's\ initial\ settings\n\ \n\ @param\ heightIn\ -\ The\ height\ of\ the\ block\ to\ be\ created\ (can't\ be\ <\ 1)\n\ @param\ widthIn\ -\ The\ width\ of\ the\ interface\ that\ the\ block\ will\ be\ displayed\ in\n\ @param\ valueIn\ -\ The\ value\ of\ the\ block\ to\ be\ created\n\ @param\ maxValue\ -\ The\ maximum\ value\ that\ a\ block\ can\ be\n\ @param\ debug\ (optional)\ -\ An\ optionol\ parameter\ which\ if\ true\ turns\ on\ debugging\ statements.\ \ Defaults\ to\ false.\n
+comment2.params=
+comment2.target=Block()
+comment2.text=\n\ Create\ a\ block\ and\ with\ default\ initial\ settings\ (only\ used\ for\ testing\ purposes)\n\ \n\ @param\ heightIn\ -\ The\ height\ of\ the\ block\ to\ be\ created\ (can't\ be\ <\ 1)\n\ @param\ widthIn\ -\ The\ width\ of\ the\ interface\ that\ the\ block\ will\ be\ displayed\ in\n\ @param\ valueIn\ -\ The\ value\ of\ the\ block\ to\ be\ created\n\ @param\ maxValue\ -\ The\ maximum\ value\ that\ a\ block\ can\ be\n
+comment3.params=
+comment3.target=int\ getWidth()
+comment3.text=\n\ Return\ the\ width\ of\ the\ block\n\ \n\ @return\ The\ integer\ width\ of\ the\ block\n
+comment4.params=
+comment4.target=int\ getValue()
+comment4.text=\n\ Return\ the\ value\ of\ the\ block\n\ \n\ @return\ The\ integer\ value\ of\ the\ block\n
+comment5.params=
+comment5.target=void\ createDisplayImage()
+comment5.text=\n\ Create\ the\ image\ of\ the\ block\ to\ be\ used\ by\ greenfoot\ for\ display\n
+comment6.params=valueIn
+comment6.target=int\ countDigits(int)
+comment6.text=\n\ Count\ the\ number\ of\ digits\ in\ an\ integet\ number\n\ \n\ @return\ The\ number\ of\ digits\ in\ the\ number\n
+numComments=7
